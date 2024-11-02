@@ -1,0 +1,29 @@
+.aboutcontainer{
+    
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+min-height: 80%;
+gap: 8px;
+}
+
+.aboutcontainer .text{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+
+}
+
+.aboutcontainer img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    border-radius: 50%;
+    
+    
+}
